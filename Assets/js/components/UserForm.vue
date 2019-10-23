@@ -73,7 +73,7 @@
                                     </div>
                                 </el-tab-pane>
                                 <el-tab-pane :label="trans('users.tabs.roles')">
-                                    <el-form-item :label="trans('users.form.password')"
+                                    <el-form-item :label="trans('users.tabs.roles')"
                                                   :class="{'el-form-item is-error': form.errors.has('password') }">
                                         <el-select v-model="user.roles" multiple placeholder="Select">
                                             <el-option
